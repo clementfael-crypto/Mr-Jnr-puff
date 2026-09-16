@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MR JNR — Catalogue informatif">
+  <title>MR JNR — Catalogue</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- CONTRÔLE D'ÂGE -->
+  <div id="ageGate" class="age-gate">
+    <div class="age-box">
+      <div class="age-icon">🔞</div>
+      <h2>Accès réservé aux adultes</h2>
+      <p>
+        Ce site présente des produits liés au vapotage.
+        Vous devez avoir l'âge légal requis dans votre pays pour continuer.
+      </p>
+  <button id="ageYes" class="age-button">
+    J'ai l'âge légal
+  </button>
+  <button id="ageNo" class="age-button secondary">
+    Quitter
+  </button>
+  <p id="ageMessage"></p>
+</div>
+  </div>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <span>MR</span> JNR
+    </div>
+<nav>
+  <a href="#accueil">Accueil</a>
+  <a href="#catalogue">Catalogue</a>
+  <a href="#contact">Contact</a>
+</nav>
+  </header>
+  <!-- HERO -->
+  <main>
+<section id="accueil" class="hero">
+  <div class="hero-content">
+    <p class="badge">⚡ MR JNR</p>
+    <h1>
+      Catalogue <span>MR JNR</span>
+    </h1>
+    <p>
+      Découvrez notre sélection de produits et leurs caractéristiques.
+    </p>
+    <a href="#catalogue" class="hero-button">
+      Voir le catalogue
+    </a>
+  </div>
+</section>
+<!-- CATALOGUE -->
+<section id="catalogue" class="catalogue">
+  <div class="section-title">
+    <p>NOTRE SÉLECTION</p>
+    <h2>Catalogue</h2>
+  </div>
+  <div class="categories">
+    <button class="category-btn active" data-brand="Tous">
+      Tous
+    </button>
+    <button class="category-btn" data-brand="JNR">
+      JNR
+    </button>
+    <button class="category-btn" data-brand="RAZZBAR">
+      RAZZBAR
+    </button>
+    <button class="category-btn" data-brand="Al Fakher">
+      Al Fakher
+    </button>
+  </div>
+  <div id="products" class="products"></div>
+</section>
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="contact-box">
+    <p class="badge">📲 CONTACT</p>
+    <h2>Une question ?</h2>
+    <p>
+      Retrouvez-nous sur Telegram pour obtenir davantage
+      d'informations sur les produits présentés.
+    </p>
+    <a
+      href="https://t.me/maximeleoncommande"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="telegram-button"
+    >
+      💬 Ouvrir Telegram
+    </a>
+  </div>
+</section>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <div class="logo">
+      <span>MR</span> JNR
+    </div>
+<p>© 2022 MR JNR — Catalogue informatif</p>
+<p>🔞 Réservé aux personnes ayant l'âge légal applicable.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
